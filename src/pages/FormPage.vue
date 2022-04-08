@@ -1,7 +1,7 @@
 <template>
 <q-page class="row justify-center">
-  <div class="col-xs-12 col-md-6">
-    <h1 class="text-center">Förmulär Sidan</h1>
+  <div class="col-xs-12 col-md-6 q-mb-lg">
+    <h2 class="text-center q-my-lg">Förmulär Sidan</h2>
     <q-form ref="form" class="q-gutter-sm" @submit.prevent="onSubmit" greedy>
         <q-input
           no-error-icon
