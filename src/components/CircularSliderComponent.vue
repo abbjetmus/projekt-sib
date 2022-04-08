@@ -31,7 +31,6 @@ const onSliderCreate = () => {
     var angle = obj._valueToAngle(i);
     var numberTag = obj._addSeperator(angle, "");
     var number = numberTag.children().removeClass();
-    console.log(angle)
     number
         .addClass("rs-number")
         .html(`${i}&#176;`)
